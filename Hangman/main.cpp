@@ -35,7 +35,6 @@ void start_game () {
     for (int i=0; i<hangmanWord.length(); i++) {
         discoveredWord.append("_");
     }
-    std::cout << hangmanWord;
     std::cout << "Welcome to the Hangman Game" << std::endl;
     std::cout << "Guess one letter at a time or the full word: ";
     while((6 - falseGuessAmount) > 0) {
